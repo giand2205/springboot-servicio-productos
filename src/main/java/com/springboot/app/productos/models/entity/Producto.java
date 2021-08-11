@@ -16,11 +16,12 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.util.Date;
 
-@Getter
+/*@Getter
 @Setter
 @Entity
-@Table(name = "productos")
+@Table(name = "productos")*/
 public class Producto implements Serializable {
+/*
 
     @Serial
     private static final long serialVersionUID = -3386789926712808026L;
@@ -39,4 +40,5 @@ public class Producto implements Serializable {
     @Transient
     private Integer port;
 
+*/
 }
